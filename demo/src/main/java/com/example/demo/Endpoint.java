@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class Endpoint {
-	@PostMapping("/raja")
+	@PostMapping("/raja/1")
 	public int sum(@RequestParam int x,@RequestParam int y) {
 		int sum=x+y;
 		return sum;
